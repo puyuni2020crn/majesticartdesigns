@@ -26,6 +26,7 @@ span{
   position: fixed;
   background-color: rgb(255, 255, 255);
   width:100%; 
+  margin-top: 0;
   
 
 }
@@ -38,35 +39,21 @@ span{
 
 }
 
-@keyframes diapos {
-  0%{background: url(img/ani/back.png);}
-  10%{background: url(img/ani/bean.png);}
-  20%{background: url(img/ani/bond.png);}
-  30%{background: url(img/ani/break.png);}
-  40%{background: url(img/ani/ghost.png);}
-  50%{background: url(img/ani/back.png);}
-  60%{background: url(img/ani/pulp.png);}
-  70%{background: url(img/ani/rider.png);}
-  80%{background: url(img/ani/taxi.png);}
-  90%{background: url(img/ani/team.png);}
-  100%{background:url(img/ani/back.png);}
-}
-
 
 
 p{
-  height: 1.5em;
+  height: 1.5rem;
   background: white;
-  margin:200px 0 0 0;
+  margin:12.5rem 0 0 0;
   font-family: 'Franklin Gothic Medium';
-  font-size: 1em;
-  margin-bottom: 1em;
+  font-size: 1rem;
+  margin-bottom: 1rem;
   
  
 }
 .cos{
-  width: 960px;
-  height: 780px;
+  width: 60rem;
+  height: 48.75rem;
   margin:0 auto;
   
 
@@ -76,21 +63,22 @@ p{
 .peu{
   background-color: white;
   width: 100%;
-  height: 220px;
-  margin: 0 auto;
-}
-.peu{
-  
+  height: 13.75rem;
+  margin-bottom: 0;
+  display: block;
   margin-top: 50%;
+  
   
 }
 .peli{
-  width: 300px;
-  height:24rem;
-  background-size: 300px auto;
+  width: 18.75rem;
+  height:29.50rem;
+  background-size: 18.75rem auto;
   margin:20px;
   background-repeat:no-repeat;
   opacity: 50%;
+  float: left;
+ 
 
   
 }
@@ -146,9 +134,10 @@ p{
   background-image:url( img/small/wsybi.png);
 }
 .tap{
-  margin:10px;
-  width:300px;
-  height: 240px;
+  background-color: rgb(225, 241, 72);
+  margin:0.625rem;
+  width:18.75rem;
+  height: 15rem;
   float: left;
   margin-top: 10%;
   
@@ -172,14 +161,14 @@ li{
 #a00{
   background-image:url(icons/behance_icon.png);
   background-size: cover;
-  margin-top: 2PX;
+  margin-top: 0.125rem;
 
 }
 
 #a01{
   background-image:url(icons/instagram_icon.png);
   background-size: cover;
-  margin-top: 5px;
+  margin-top: 0.313rem;
   width: 1.8rem;
   height: 1.8rem;
 
@@ -190,7 +179,7 @@ li{
 #logo{
   background-image: url(img/logo.png);
   width: 100%;
-  height: 220px;
+  height: 13.75rem;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
