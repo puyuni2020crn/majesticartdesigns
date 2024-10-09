@@ -1,3 +1,18 @@
+
+
+@font-face{
+font-family: 'Franklin Gothic Medium';
+src: url(fonts/framd.ttf);
+font-weight: normal;
+font-style: normal;
+
+
+
+
+}
+
+
+
 body{
   background-color: black;
   margin: 0;
