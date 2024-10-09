@@ -1,392 +1,476 @@
 
 
-@font-face{
-font-family: 'Franklin Gothic Medium';
-src: url(fonts/framd.ttf);
-font-weight: normal;
-font-style: normal;
 
 
-
-
-}
-
-
-
-body{
-  background-color: black;
-  margin: 0;
-  padding: 0;
-  
-  
-}
-
-
-
-
-
-div{
-   float:left;
-   
-  }
-  
-
-.cap{
-   position: fixed;
-   background-color: rgb(255, 255, 255);
-   width:100%;
-   margin-top: 0;
-   
-  }
-
-    
-li {
-  display: block;
-  width: 2rem;
-  height: 2rem;
-  margin: 0.2rem;
-  float: left;
-  text-align: center;
-  }
-
-
-#a00{
-  background-image:url(icons/behance_icon.png);
-  background-size: cover;
-  margin-left: 1em;
-  width: 1.8rem;
-  height: 1.8rem;
-  
-  }
-
-#a01{
-  background-image:url(icons/instagram_icon.png);
-  background-size: cover;
-  margin-left: 0.5em;
-  width: 1.8rem;
-  height: 1.8rem;
-  
-      }
-
-#a03{
-        background-color: black;
-        margin-right: 1em;
-        width: 1.8rem;
-        height: 1.8rem;
-        float: right;
-        border-radius: 50%;
-
-      }
-
-span{
-        text-align: center;
-        color: white;
-        font-family: 'Franklin Gothic Medium';
-        font-size: 0.938;
-        line-height: 1.6rem;
-        display: block;
-}
-
-
-
-
-
-h1{
-font-family:'Franklin Gothic Medium';
-font-size: 1rem;
-text-align:center;
-color: black;
-
-}
-
-
-
-
-.space{
-     position: fixed;
-     background-color: rgb(0, 0, 0);
-     width:100%;
-     height: 2%; 
-    }
-
-
-
+@media screen and (max-width: 960px) and (orientation: portrait)
+{
 
 .columna1{
 
-      
 
-  margin-top: 10%;
-  float: left;
-  background-color: none;
-  width:33%;
-    
-    }
-
-
-
-.columna2{
-
-      
-
- margin-top: 10%;
- float: right;
- background-color:none;
- width:33%;
- 
+  float: none;
 }
-
 
 
 .columna3{
 
-      
 
-  margin-top: 10%;
-  background-color: none;
-  width:33%;
-  margin-left: 6px;
- }  
-
-/*.matrix{
- 
-}*/
-
-
-.box{
-
-  width: 18.75em;
-  height: 18.75em;
-  margin: 1.25em;
-  margin-left: 14%;
-  background-color: purple;
-
+  float: none;
 }
 
+.columna2{
 
-.box2{
-
-width: 15.938em;
-height: 25em;
-margin: 1.25em;
-margin-left: 18%;
-background-color: purple;
-
-}
-
-.box3{
-
-  width:20em;
-  height: 23.75em;
-  margin: 0.625em;
-  margin-left: 11%;
-  background-color: purple;
-  
-  }
-.box4{
-
-    width: 20em;
-    height: 25em;
-    margin:1.25em;
-    margin-left: 11%;
-    background-color: purple;
-    
-    }
-
-.box5{
-
-      width: 20em;
-      height: 16.563em;
-      margin: 1.25em;
-      margin-left: 11%;
-      background-color: purple;
-      
-      }
-
-.box6{
-
-        width: 20em;
-        height: 18.75em;
-        margin: 1.25em;
-        margin-left: 10%;
-        background-color: purple;
-      
-      }
-
-
-
-.box7{
-
-        width: 17.813em;
-        height: 25em;
-        margin: 1.25em;
-        margin-left: 18%;
-        background-color: purple;
-
-      }
-
-
-
-
-#pub1{
-  background-image:url(img/small/POISON.png);
-  background-size:contain;
-  background-repeat: no-repeat;
-
+  float: none;
   
 }
 
-
-#pub2{
-  background-image:url(img/small/varmarmo/liminal_textured.png);
-  background-size:cover;
-  background-repeat: no-repeat;
-
-  
-}
 
 
 #pub3{
-  background-image:url(img/small/lust.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
-
-  
+  float: left;
+  margin-left: -11rem;
 }
 
 
-#pub4{
-  background-image:url(img/small/JAPO.png);
-  background-size:cover;
-  background-repeat: no-repeat;
-
-  
-}
-
-
-#pub5{
-  background-image:url(img/small/FINESSE.png);
-  background-size:cover;
-  background-repeat: no-repeat;
-
-  
-}
 
 #pub6{
-  background-image:url(img/small/wsybi.png);
-  background-size:contain;
-  background-repeat: no-repeat;
-
-  
+  float: left;
+  margin-left: -11rem;
 }
-
-#pub7{
-  background-image:url(img/small/clouds.png);
-  background-size:contain;
-  background-repeat: no-repeat;
-
-  
-}
-
-
-#pub8{
-  background-image:url(img/small/DYSTOPIA.png);
-  background-size:cover;
-  background-repeat: no-repeat;
-
-  
-}
-
 
 
 
 #pub9{
-  background-image:url(img/small/DEADLYHOT6.png);
-  background-size:cover;
-  background-repeat: no-repeat;
-
-  
+  float: left;
+  margin-left: -11rem;
 }
-
-
-#pub10{
-  background-image:url(img/small/hoguera.png);
-  background-size:cover;
-  background-repeat: no-repeat;
-
-  
-}
-
-
-
-
-#pub11{
-  background-image:url(img/small/the-dark-soul.png);
-  background-size:cover;
-  background-repeat: no-repeat;
-
-  
-}
-
-
 
 #pub12{
-  background-image:url(img/small/fondo_granulado.png);
-  background-size:contain;
-  background-repeat: no-repeat;
-
-  
+  float: left;
+  margin-left: -11rem;
 }
-
-#pub13{
-  background-image:url(img/small/1.png);
-  background-size:cover;
-  background-repeat: no-repeat;
-
-  
-}
-
-
-
-
-#pub14{
-  background-image:url(img/small/var/maskeduyunigreen.png);
-  background-size:cover;
-  background-repeat: no-repeat;
-
-  
-}
-
 
 #pub15{
-  background-image:url(img/small/2.png);
-  background-size:cover;
-  background-repeat: no-repeat;
+  float: left;
+  margin-left: -11rem;
+}
 
+}
+
+
+@media screen and (min-width: 960px) and (orientation: landscape)
+{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face{
+  font-family: 'Franklin Gothic Medium';
+  src: url(fonts/framd.ttf);
+  font-weight: normal;
+  font-style: normal;
   
-}
-
-
-
-
-
-
-
-
-.peu{
-  background-color: white;
-  width: 100%;
-  height: 13.75rem;
-  margin-bottom: 0;
-  display: block;
-  margin-top: 20%;
-}
-#logo{
-  background-image: url(img/logo.png);
-  width: 100%;
-  height: 10rem;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
+  
+  
+  
+  }
+  
+  
+  
+  body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+  
+  
+  
+  
+  
+  div{
+     float:left;
+     
+    }
+    
+  
+  .cap{
+     position: fixed;
+     background-color: rgb(255, 255, 255);
+     width:100%;
+     margin-top: 0;
+     
+    }
+  
+      
+  li {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin: 0.2rem;
+    float: left;
+    text-align: center;
+    }
+  
+  
+  #a00{
+    background-image:url(icons/behance_icon.png);
+    background-size: cover;
+    margin-left: 1em;
+    width: 1.8rem;
+    height: 1.8rem;
+    
+    }
+  
+  #a01{
+    background-image:url(icons/instagram_icon.png);
+    background-size: cover;
+    margin-left: 0.5em;
+    width: 1.8rem;
+    height: 1.8rem;
+    
+        }
+  
+  #a03{
+          background-color: black;
+          margin-right: 1em;
+          width: 1.8rem;
+          height: 1.8rem;
+          float: right;
+          border-radius: 50%;
+  
+        }
+  
+  span{
+          text-align: center;
+          color: white;
+          font-family: 'Franklin Gothic Medium';
+          font-size: 15px;
+          line-height: 1.6rem;
+          display: block;
+  }
+  
+  
+  
+  
+  
+  h1{
+  font-family:'Franklin Gothic Medium';
+  font-size: 1rem;
+  text-align:center;
+  color: black;
+  
+  }
+  
+  
+  
+  
+  .space{
+       position: fixed;
+       background-color: rgb(0, 0, 0);
+       width:100%;
+       height: 2%; 
+      }
+  
+  
+  
+  
+  .columna1{
+  
+        
+  
+    margin-top: 10%;
+    float: left;
+    background-color: none;
+    width:33%;
+      
+      }
+  
+  
+  
+  .columna2{
+  
+        
+  
+   margin-top: 10%;
+   float: right;
+   background-color:none;
+   width:33%;
+   
+  }
+  
+  
+  
+  .columna3{
+  
+        
+  
+    margin-top: 10%;
+    background-color: none;
+    width:33%;
+    margin-left: 6px;
+   }  
+  
+  .matrix{ 
+    float: left;
+   
+  }
+  
+  
+  .box{
+  
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    margin-left: 14%;
+    background-color: purple;
+  
+  }
+  
+  
+  .box2{
+  
+  width: 255px;
+  height: 400px;
+  margin: 20px;
+  margin-left: 18%;
+  background-color: purple;
+  
+  }
+  
+  .box3{
+  
+    width: 320px;
+    height: 380px;
+    margin: 10px;
+    margin-left: 11%;
+    background-color: purple;
+    
+    }
+  .box4{
+  
+      width: 320px;
+      height: 400px;
+      margin: 20px;
+      margin-left: 11%;
+      background-color: purple;
+      
+      }
+  
+  .box5{
+  
+        width: 320px;
+        height: 265px;
+        margin: 20px;
+        margin-left: 11%;
+        background-color: purple;
+        
+        }
+  
+  .box6{
+  
+          width: 320px;
+          height: 300px;
+          margin: 20px;
+          margin-left: 10%;
+          background-color: purple;
+        
+        }
+  
+  
+  
+  .box7{
+  
+          width: 285px;
+          height: 400px;
+          margin: 20px;
+          margin-left: 18%;
+          background-color: purple;
+  
+        }
+  
+  
+  
+  
+  #pub1{
+    background-image:url(img/small/POISON.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  
+  #pub2{
+    background-image:url(img/small/varmarmo/liminal_textured.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  
+  #pub3{
+    background-image:url(img/small/lust.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  
+  #pub4{
+    background-image:url(img/small/JAPO.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  
+  #pub5{
+    background-image:url(img/small/FINESSE.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  #pub6{
+    background-image:url(img/small/wsybi.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  #pub7{
+    background-image:url(img/small/clouds.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  
+  #pub8{
+    background-image:url(img/small/DYSTOPIA.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  
+  
+  
+  #pub9{
+    background-image:url(img/small/DEADLYHOT6.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  
+  #pub10{
+    background-image:url(img/small/hoguera.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  
+  
+  
+  #pub11{
+    background-image:url(img/small/the-dark-soul.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  
+  
+  #pub12{
+    background-image:url(img/small/fondo_granulado.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  #pub13{
+    background-image:url(img/small/1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  
+  
+  
+  #pub14{
+    background-image:url(img/small/var/maskeduyunigreen.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  
+  #pub15{
+    background-image:url(img/small/2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .peu{
+    background-color: white;
+    width: 100%;
+    height: 13.75rem;
+    margin-bottom: 0;
+    display: block;
+    margin-top: 20%;
+  }
+  #logo{
+    background-image: url(img/logo.png);
+    width: 100%;
+    height: 10rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
