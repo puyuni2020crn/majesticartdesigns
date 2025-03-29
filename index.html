@@ -1,124 +1,81 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  
-  <head>
-    <meta charset="utf-8">
-
-    <meta name="author" content="YaBoiUyuni">
-    <meta name="theme-color" content="black">
-    <meta name="msapplication-navbutton-color" content="black">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majestic Art Designs</title>
+    <!-- Enlace al archivo CSS externo -->
     <link rel="stylesheet" href="estilito.css">
     <link rel="icon" sizes="192x192" href="img/mjstc.jpg">
     <link rel="icon" sizes="512x512" href="img/mjstc.jpg">
     <link rel="apple-touch-icon" href="img/mjstc.jpg">
-    <title>Majestic Art Designs</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-  </head>
-
-
-
-  <div style="z-index: 2" class="cap">
-    <a href="https://www.behance.net/pabloauyunic"><li id="a00"></li></a>
-    <a href="https://www.instagram.com/_majestic.99_/"><li id="a01"></li></a>
-
-    <a href=""><li id="a03"><span>CAT</span></li></a>
-    <a href=""><li id="a03"><span>EN</span></li></a>
-      <h1>Majestic Art Designs</h1>
-     
-      <div class="space"></div>
-  </div>
-
-
-
-
-  <body>
-
-   <div class="columna1">
-
-
-    <div class="matrix">
-
-      <div class="box" id="pub1"></div>
-      
-      <div class="box3" id="pub4"></div>
-
-      <div class="box" id="pub7"></div>
-
-      <div class="box5" id="pub10"></div>
-      
-      <div class="box7" id="pub13"></div>
-
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="social-icons">
+                <a href="https://www.behance.net" target="_blank" class="icon-button">B</a>
+                <a href="https://www.instagram.com" target="_blank" class="icon-button">I</a>
+            </div>
+            <h1>Majestic Art Designs</h1>
+            <div class="language-buttons">
+                <button class="lang-button">CAT</button>
+                <button class="lang-button">ENG</button>
+            </div>
+        </div>
+    </header>
     
-      
-    </div> 
-
-
-  </div>
-
-
-  <div class="columna3">
-
-
-    <div class="matrix">
-
-      <div class="box2" id="pub2"></div>
-      
-      <div class="box" id="pub5"></div>
-
-      <div class="box3" id="pub8"></div>
-
-      <div class="box" id="pub11"></div>
-      
-      <div class="box6" id="pub14"></div>
-
+    <div class="content">
+        <div class="gallery">
+            <div class="column">
+                <div class="image-box"><img src="img/small/lust.jpg" alt="Imagen 1" onclick="openModal(this, 'Título Imagen 1', 'Descripción de la Imagen 1')"></div>
+                <div class="image-box"><img src="img/small/wsybi.png" alt="Imagen 5" onclick="openModal(this, 'Título Imagen 5', 'Descripción de la Imagen 5')"></div>
+                <div class="image-box"><img src="img/small/invictus.png" alt="Imagen 9" onclick="openModal(this, 'Título Imagen 9', 'Descripción de la Imagen 9')"></div>
+            </div>
+            <div class="column">
+                <div class="image-box"><img src="img/small/liminal_textured.png" alt="Imagen 2" onclick="openModal(this, 'Título Imagen 2', 'Descripción de la Imagen 2')"></div>
+                <div class="image-box"><img src="img/small/POISON.png" alt="Imagen 6" onclick="openModal(this, 'Título Imagen 6', 'Descripción de la Imagen 6')"></div>
+                <div class="image-box"><img src="img/small/spotify.jpg" alt="Imagen 10" onclick="openModal(this, 'Título Imagen 10', 'Descripción de la Imagen 10')"></div>
+            </div>
+            <div class="column">
+                <div class="image-box"><img src="img/small/JAPO.png" alt="Imagen 3" onclick="openModal(this, 'Título Imagen 3', 'Descripción de la Imagen 3')"></div>
+                <div class="image-box"><img src="img/small/maskeduyunigreen.png" alt="Imagen 7" onclick="openModal(this, 'Título Imagen 7', 'Descripción de la Imagen 7')"></div>
+                <div class="image-box"><img src="img/small/NARAI2.png" alt="Imagen 11" onclick="openModal(this, 'Título Imagen 11', 'Descripción de la Imagen 11')"></div>
+                <div class="image-box"><img src="img/small/NARAI.png" alt="Imagen 11" onclick="openModal(this, 'Título Imagen 11', 'Descripción de la Imagen 11')"></div>
+            </div>
+            <div class="column">
+                <div class="image-box"><img src="img/small/FINESSE.png" alt="Imagen 4" onclick="openModal(this, 'Título Imagen 4', 'Descripción de la Imagen 4')"></div>
+                <div class="image-box"><img src="img/small/lust.jpg" alt="Imagen 8" onclick="openModal(this, 'Título Imagen 8', 'Descripción de la Imagen 8')"></div>
+                <div class="image-box"><img src="img/small/varmarmo/MARMOLADO2.png" alt="Imagen 12" onclick="openModal(this, 'Título Imagen 12', 'Descripción de la Imagen 12')"></div>
+            </div>
+        </div>
+    </div>
     
-      
-    </div> 
-
-
-  </div>
-
-  <div class="columna2">
-
-
-    <div class="matrix">
-
-      <div class="box" id="pub3"></div>
-      
-      <div class="box4" id="pub6"></div>
-
-      <div class="box" id="pub9"></div>
-
-      <div class="box" id="pub12"></div>
-      
-      <div class="box7" id="pub15"></div>
-
-      
-
-      
-      
-    </div> 
-
-
-  </div>
-
-
-
-
-
-  
-
-
-
-
-
-
-    ¡
+    <footer>
+        <p>&copy; 2025 Majestic Art Designs. Todos los derechos reservados.</p>
+    </footer>
     
-  </body>
-  <div class="peu" id="logo"></div>
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="close" onclick="closeModal()">&times;</button>
+            <img id="modal-image" src="" alt="">
+            <div class="modal-title" id="modal-title"></div>
+            <div class="modal-description" id="modal-description"></div>
+        </div>
+    </div>
+    
+    <script>
+        function openModal(image, title, description) {
+            document.getElementById('modal-image').src = image.src;
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-description').innerText = description;
+            document.getElementById('modal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</body>
 </html>
